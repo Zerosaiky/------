@@ -74,8 +74,8 @@ function validateBrackets(bracketString)
             {
                 return false;
             }
-            else
-                console.log(allBrackets[i] + ' ' + i)
+            //else
+                //console.log(allBrackets[i] + ' ' + i)
         }
     }
     return stack.length === 0;
